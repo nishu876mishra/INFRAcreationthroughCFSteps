@@ -41,7 +41,7 @@ Resources:
         - Key01
         - key
       NetworkInterfaces:
-      - Description: Primary network interface
+      - Description: Primary interface of network Information 
         DeviceIndex: "[Details of instance type t2.micro, maximum 2 network interfaces. Index would be 0 or 1]"
         SubnetId: "[Details of SubnetId in VPC---->Subnets]"
         PrivateIpAddress: "[Details of subnet in VPC-->Subnets, and IP address would start from 4. 0 to 3]"
