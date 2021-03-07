@@ -26,7 +26,7 @@ Resources:
       InstanceType: "[Details of InstanceType in EC2---->Launch Instance]"
       KeyName: "[Details of KeyName in EC2---->Key Pairs]"
       NetworkInterfaces:
-      - Description: Primary intrface network information
+      - Description: Network Interface Primary 
         DeviceIndex: "[Details of t2.micro, max 2 network interfaces & Index would be 0 or 1]"
         SubnetId: "[Details of SubnetId in VPC---->Subnets]"
         PrivateIpAddress: "[Details of Subnet in VPC---->Subnets, & IP address would start from 4. 0]"
