@@ -10,7 +10,7 @@ Resources:
         ToPort: 22
         CidrIp: 0.0.0.0/0
         Description: For traffic from Internet
-      GroupDescription: Security Group for demo server
+      GroupDescription: Security Group for demo Server
       VpcId: "[Details of VpcId in VPC---->Subnets]"
   EC2InstanceDemoBox:
     Type: AWS::EC2::Instance
@@ -26,7 +26,7 @@ Resources:
       InstanceType: "[Details of InstanceType in EC2---->Launch Instance]"
       KeyName: "[Details of KeyName in EC2---->Key Pairs]"
       NetworkInterfaces:
-      - Description: Primary network interface
+      - Description: Primary intrface network information
         DeviceIndex: "[Details of t2.micro, max 2 network interfaces & Index would be 0 or 1]"
         SubnetId: "[Details of SubnetId in VPC---->Subnets]"
         PrivateIpAddress: "[Details of Subnet in VPC---->Subnets, & IP address would start from 4. 0]"
